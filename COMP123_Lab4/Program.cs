@@ -10,6 +10,9 @@ namespace COMP123_Lab4
     {
         static void Main(string[] args)
         {
+            Person aPerson = new Person("Mingxin Cong", 38);
+
+            aPerson.SaysHello();
         }
     }
 }
